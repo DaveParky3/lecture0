@@ -2,24 +2,57 @@
 <html>
     <head>
         <title>My Fist Webpage</title>
+        <style>
+        h1 {
+            color:blueviolet;
+            text-align: center;
+            font-size: 60px;
+
+        }
+
+        table {
+            border: 5px solid black;
+            font-size: 40px;
+            text-align: center;
+            border-collapse: collapse;
+            width: 50%;
+            margin: 0 auto;
+
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 5px;
+        }
+        th {
+            background-color: lightgray;
+        }
+        tr:hover {
+            background-color: lime;
+        }
+
+        </style>
     </head>
     <body>
-        <h1>Hello Teblo!</h1>
+        <h1>Hello Table!</h1>
         <table>
             <tr>
              <th>Fist Name</th>
              <th>Second Name</th>
              <th>Age</th>
+             <th>Sex</th>
             </tr>
             <tr>
                 <td>Davide</td>
                 <td>Defendi</td>
                 <td>27</td>
+                <td>Male</td>
             </tr>
             <tr>
                 <td>Mikko</td>
                 <td>Caldara</td>
                 <td>35</td>
+                <td>Male</td>
             </tr>
         </table>
     </body>
